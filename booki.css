@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*
+{
+    font-family: Raleway;
+    text-decoration: none;
+}
 body
 {
 max-height: 4000PX
 max-width: 2560px;
 width: 100%;
+
 }
 
 header
