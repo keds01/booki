@@ -1,0 +1,525 @@
+body
+{
+max-height: 4000PX
+max-width: 2560px;
+width: 100%;
+}
+
+header
+{
+    max-width: 2560px;
+    width: 100%;
+   /* background-color: antiquewhite;*/
+    margin-top: -10px;
+    background-color: white;
+}
+
+.logo
+{
+    width: 150px;
+    height: 70px;
+}
+
+header span 
+{
+   margin-bottom: 70px;
+}
+span a
+{
+    padding: 10px;
+    
+}
+
+.art1 
+{
+ font-size: 20px;
+ margin-top:60px;
+}
+.art1 h3
+{
+ font-size: 40px;
+ padding: 0%;
+}
+
+.art1 h4
+{
+ font-size: 25px;
+ margin-top:-30px;
+}
+
+.cc
+{
+    margin-top: 40px;
+    max-width: 490px;
+    width: 100%;
+    height: 55px;
+    /*border: solid black 2px;*/
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    transition:all 100ms ease-in-out ;
+    cursor: pointer;
+
+    &:hover
+    {
+       transform: scale(1.2); 
+       z-index: 111111;
+       margin-left: 75px;
+       margin-right: 25px;
+    }
+}
+
+.c1
+{
+    width: 90px;
+    height: auto;
+    background-color: rgba(156, 152, 152, 0.644);
+    border-radius: 15px 0px 0px 15px;
+    padding-top: 0px;
+}
+
+.c2
+{
+    width: 280px;
+    height: auto;
+    text-align: start;
+    border: 1px solid rgb(153, 151, 151);
+    
+}
+.c2 p
+{
+    margin-left:15px;
+    font-size: 20px;
+}
+.c3
+{
+    width: 120px;
+    height: auto;
+    border-radius: 0px 15px 15px 0px;
+    background-color: blue;
+}
+.c3 p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    justify-content: center;
+}
+.filtres
+{
+    max-width: 1440px;
+    width: 100%;
+    height: 60px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     
+}
+.filtres p
+{
+    font-size: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+.filtre
+{
+    margin-bottom: 20px;
+    margin-right:20px;
+    width: auto;
+    border: solid rgb(134, 116, 116) 1px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    transition:all 100ms ease-in-out ;
+    cursor: pointer;
+
+    &:hover
+    {
+       transform: scale(1.2); 
+       z-index: 111111;
+       margin-left: 25px;
+       margin-right: 25px;
+    }
+}
+.filtre p
+{
+    font-size: 20px;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.icon
+{
+    background-color: blue;
+    width:50px ;
+    border-radius: 40%;
+}
+
+.plus
+{
+    margin-top: 0px;
+    display: flex;
+}
+
+.plus img
+{
+    padding: 15px;
+}
+
+.locations
+{
+    margin-top: 100px;
+    display: flex;   
+    max-width: 1440px;
+    width: 100%;
+    min-height: 850px;
+    height: 850px;
+    max-height: auto;
+    /*background-color: black;*/
+}
+.location1
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 9000px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    background-color: aliceblue;
+}
+.location1 p
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 80px;
+}
+
+.cartes1
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*background-color: aqua;*/
+    max-width: 900px;
+    width: 100%;
+    height:900px ;
+    margin-bottom: 80px;
+    justify-content: center;
+    
+}
+
+.cartes2
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*background-color: aqua;*/
+    max-width: 100%;
+    width: 100%;
+    max-width:900px ;
+    height: 900px;
+    justify-content: center;
+    margin-top: -130px;
+}
+
+.carte1
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 255px;
+    width: 100%;
+    height: 270px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.151) ;
+    transition:all 100ms ease-in-out ;
+    cursor: pointer;
+
+    &:hover
+    {
+       transform: scale(1.1); 
+       z-index: 111111;
+       margin-left: 25px;
+       margin-right: 25px;
+    }
+}
+.stars
+{
+    display: flex;
+    z-index: 1;
+    margin-top: -75px;
+    
+}
+
+.star
+{
+   width: 20px;
+   height: 25px;
+   margin-top: -20;
+   padding: -50px;
+   transition:all 100ms ease-in-out ;
+    cursor: pointer;
+
+    &:hover
+    {
+       transform: scale(1.2); 
+       z-index: 111111;
+       margin-left: 2px;
+       margin-right: 2px;
+    }
+   
+}
+
+.carte1 p
+{
+    margin-top: 70px;,; 
+    font-size: 20px;
+    position: relative;
+    top: -70px;
+    margin-left: 10px;
+}
+
+ .carte1 p span
+{
+    font-size: 15px;
+}
+
+
+
+.imgcarte
+{
+    margin: 7px;
+    max-width: 245px;
+    width: 100%;
+    height: 60%;
+    border-radius: 40px 40px 0px 0px;
+}
+
+
+.location2
+{
+    
+    max-width: 480px;
+    width: 100%;
+    height: 800px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    background-color: aliceblue;
+}
+.location2 p
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 80px;
+}
+.cartes3
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 400px;
+    
+}
+
+.carte2
+{
+    display: flex;
+    flex-direction: row;
+    max-width: 450px;
+    width: 100%;
+    height: 170px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.151) ;
+    transition:all 100ms ease-in-out ;
+    cursor: pointer;
+
+    &:hover
+    {
+       transform: scale(1.2); 
+       z-index: 111111;
+       margin-left: 25px;
+       margin-right: 25px;
+    }
+}
+
+.imgcarte2
+{
+    height: 155px;
+    max-width: 220px;
+    width: 100%;
+    border-radius: 40px 0px 0px 40px ;
+    margin: 7px;
+}
+
+.carte2 p
+{
+    font-size: 25px;
+    margin-left: 25px;
+}
+ 
+.carte2 p span
+{
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.activitess
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.activites
+{
+    max-width: 1440px;
+    width: 100%;
+    height: 1000px;
+   /* background-color: blue;*/
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.activitess p
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 0px; 
+    
+}
+
+.activite
+{
+    max-width: 22.7%;
+    width: 100%;
+    min-width: 300px;
+    height: 480px;
+    background-color: rgb(236, 235, 235);
+    margin: 10px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.151) ;
+    transition:all 100ms ease-in-out ;
+    cursor: pointer;
+
+    &:hover
+    {
+       transform: scale(1.2); 
+       z-index: 111111;
+       margin-left: 25px;
+       margin-right: 25px;
+    }
+}
+
+.imgactivite
+{
+    height: 480px;
+    max-width: 470px;
+    width: 100%;
+}
+
+.activite p
+{
+    padding: 0%;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.activite1
+{
+    max-width: 22.7%;
+    width: 100%;
+    min-width: 300px;
+    height: 480px;
+    background-color: rgb(236, 235, 235);
+    margin: 10px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+    
+}
+
+.act
+{
+    
+    height: 70%;
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+    /*background-color: black;*/
+    overflow: hidden;
+    box-shadow: 70px rgba(0, 0, 0, 0.671);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.151) ;
+    transition:all 100ms ease-in-out ;
+    cursor: pointer;
+
+    &:hover
+    {
+       transform: scale(1.1); 
+       z-index: 111111;
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+}
+
+.imgactivite1
+{
+    height: 200px;
+    max-width: 326px;
+    width: 100%;
+    border-radius: 40px 40px 0px 00px ;
+
+}
+
+.act p
+{
+    margin-top: 0px;
+    margin-left: 25px;
+    font-size:25px ; 
+}
+
+footer
+{
+    max-width: 3000px;
+    min-width: 320px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    
+    flex-direction: row;
+    margin-top: 100px;
+    position: relative;
+    bottom: 0%;
+    background-color: rgba(214, 214, 214, 0.432);
+    border-radius: 40px 40px 0px 0px;
+}
+
+footer div
+{
+    max-width: 3000px;
+    width:100%;
+    margin-left: 20px;
+    margin-right:20px ;
+    align-content: space-between;
+
+}
+
+
+
